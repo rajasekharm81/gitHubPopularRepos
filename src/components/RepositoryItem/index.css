@@ -1,0 +1,47 @@
+.RepositoryItemContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  list-style: none;
+  margin: 10px;
+  width: 350px;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid blue;
+}
+
+.avatarImage {
+  width: 80%;
+  padding: 20px;
+}
+
+.itemName {
+  color: red;
+}
+
+.starContainer {
+  display: flex;
+  width: 80%;
+  height: 40px;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.forksContainer {
+  display: flex;
+  width: 80%;
+  height: 40px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.openIssuesContainer {
+  display: flex;
+  width: 80%;
+  height: 40px;
+  align-items: center;
+  justify-content: flex-start;
+}
+.starImg {
+  height: 80%;
+  margin: 10px;
+}

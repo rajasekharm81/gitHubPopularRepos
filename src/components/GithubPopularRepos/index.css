@@ -1,0 +1,31 @@
+.maincontainer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.seachByContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 80vw;
+}
+
+.repositoryItemContainer {
+  display: flex;
+  width: 80vw;
+  flex-wrap: wrap;
+}
+
+.FailedImage {
+  height: 60vh;
+  width: 60vw;
+}
+
+.failedViewContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
